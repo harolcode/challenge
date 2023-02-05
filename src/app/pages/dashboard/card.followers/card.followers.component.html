@@ -1,0 +1,6 @@
+<section class="followers">
+    <mat-card class="card" *ngFor="let socialMedia of socialsMedia">
+        <mat-card-header> <img src="{{socialMedia.user.imageUrl}}" > {{socialMedia.user.name}} {{socialMedia.user.type}}</mat-card-header>
+        <mat-card-content> {{socialMedia.user.totalFollowers}} {{socialMedia.user.todayFollowers}} Today  </mat-card-content>
+    </mat-card>
+</section>

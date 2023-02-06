@@ -18,6 +18,16 @@
     margin-top: 0;
     color: hsl(228, 34%, 66%); 
     font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+.toggle {
+    float: right;
+}
+
+.content-toggle {
+    margin-top: 25px;
 }
 
 

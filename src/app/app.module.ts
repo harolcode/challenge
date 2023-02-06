@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardModule } from './pages/dashboard/dashboard.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -22,10 +23,10 @@ import { DashboardModule } from './pages/dashboard/dashboard.module';
     MaterialModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    DashboardModule
-
-
+    DashboardModule,
+    FlexLayoutModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

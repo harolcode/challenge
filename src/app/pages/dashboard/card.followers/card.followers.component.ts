@@ -20,15 +20,17 @@ export class CardFollowersComponent implements OnInit {
                 "name": "@nathanf",
                 "totalFollowers": 1987,
                 "todayFollowers": 12,
-                "increaseFollowers": true,
+                "increaseFollowers": "arrow_drop_up",
                 "viewsToday": 87,
-                "increaseViews": true,
+                "increaseViews": "arrow_drop_up",
                 "percentViews": 3,
                 "likesToday": 52,
-                "increaseLikes": false,
+                "increaseLikes": "arrow_drop_down",
                 "percentLikes": 2,
                 "type": "FOLLOWERS",
-                "imageUrl": "../../../../assets/images/icon-facebook.svg"
+                "imageUrl": "../../../../assets/images/icon-facebook.svg",
+                "color": "color_green",
+                "colorLine": "color-line1"
             }
         },
         {
@@ -39,15 +41,17 @@ export class CardFollowersComponent implements OnInit {
                 "name": "@nathanf",
                 "totalFollowers": 1044,
                 "todayFollowers": 99,
-                "increaseFollowers": true,
+                "increaseFollowers": "arrow_drop_up",
                 "viewsToday": 117,
-                "increaseViews": true,
+                "increaseViews": "arrow_drop_up",
                 "percentViews": 303,
                 "likesToday": 507,
-                "increaseLikes": true,
+                "increaseLikes": "arrow_drop_up",
                 "percentLikes": 553,
                 "type": "FOLLOWERS",
-                "imageUrl": "../../../../assets/images/icon-twitter.svg"
+                "imageUrl": "../../../../assets/images/icon-twitter.svg",
+                "color": "color_green",
+                "colorLine": "color-line2"
             }
         },
         {
@@ -58,15 +62,17 @@ export class CardFollowersComponent implements OnInit {
                 "name": "@realnathanf",
                 "totalFollowers": "11K",
                 "todayFollowers": 1099,
-                "increaseFollowers": true,
+                "increaseFollowers": "arrow_drop_up",
                 "viewsToday": "52k",
-                "increaseViews": true,
+                "increaseViews": "arrow_drop_up",
                 "percentViews": 1375,
                 "likesToday": 5462,
-                "increaseLikes": true,
+                "increaseLikes": "arrow_drop_up",
                 "percentLikes": 2257,
                 "type": "FOLLOWERS",
-                "imageUrl": "../../../../assets/images/icon-instagram.svg"
+                "imageUrl": "../../../../assets/images/icon-instagram.svg",
+                "color": "color_green",
+                "colorLine": "color-line3"
             }
         },
         {
@@ -77,15 +83,17 @@ export class CardFollowersComponent implements OnInit {
                 "name": "Nathan F.",
                 "totalFollowers": 8239,
                 "todayFollowers": 144,
-                "increaseFollowers": false,
+                "increaseFollowers": "arrow_drop_down",
                 "viewsToday": 1404,
-                "increaseViews": false,
+                "increaseViews": "arrow_drop_down",
                 "percentViews": 12,
                 "likesToday": 107,
-                "increaseLikes": false,
+                "increaseLikes": "arrow_drop_down",
                 "percentLikes": 19,
                 "type": "SUBSCRIBERS",
-                "imageUrl": "../../../../assets/images/icon-youtube.svg"
+                "imageUrl": "../../../../assets/images/icon-youtube.svg",
+                "color": "color_red",
+                "colorLine": "color-line4"
             }
         }
     ]

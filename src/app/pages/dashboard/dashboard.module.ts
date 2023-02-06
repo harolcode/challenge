@@ -8,20 +8,28 @@ import { CardOverviewComponent } from './card.overview/card.overview.component';
 import { MaterialModule } from 'src/app/material.module';
 
 
+
+
+
+
 @NgModule({
   declarations: [
     DashboardComponent,
     CardFollowersComponent,
-    CardOverviewComponent
+    CardOverviewComponent,
+   
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
     MaterialModule,
+  
+  
   ],
   exports:[
     CardFollowersComponent,
-    CardOverviewComponent
+    CardOverviewComponent,
+    
   ]
 })
 export class DashboardModule { }

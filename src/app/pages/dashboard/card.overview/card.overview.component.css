@@ -1,0 +1,72 @@
+.content {
+    padding: 20px 0;
+}
+
+/*Dark*/
+
+.content .mat-mdc-card-content {
+    display: block;
+    padding: 25px;
+}
+.content  .mat-mdc-card {
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.content  .mat-mdc-card:hover {
+    background-color: hsla(228, 26%, 27%);
+}
+
+.color-line1 {
+    background: hsl(208, 92%, 53%);
+}
+.color-line2 {
+    background: hsl(203, 89%, 53%);
+}
+.color-line3 {
+    background: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
+.color-line4 {
+    background: hsl(348, 97%, 39%);
+}
+
+.line{
+    height: 4px;
+    border-radius: 6px 6px 0 0;
+ 
+}
+
+.content h1 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+   
+    margin-bottom: auto;
+    
+}
+
+.content h3 {
+    font-weight: 700;
+    color: hsl(228, 34%, 66%);
+    font-size: 14px;
+}
+.content h2 {
+    font-weight: 400;
+    color: hsl(228, 34%, 66%);
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top: auto;
+}
+
+.color_green { color: hsl(163, 72%, 41%); font-size: 12px; font-weight: 700;  }
+.color_red { color: hsl(356, 69%, 56%); font-size: 12px; font-weight: 700;  }
+
+/*Dark*/
+
+.card {
+    margin-right: 0px !important;
+}
+
+.icon {
+    float: right;
+}

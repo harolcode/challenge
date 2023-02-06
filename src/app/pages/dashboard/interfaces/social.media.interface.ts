@@ -4,15 +4,17 @@
         name: string;
         totalFollowers: any;
         todayFollowers: number;
-        increaseFollowers: boolean;
+        increaseFollowers: string;
         viewsToday: any;
-        increaseViews: boolean;
+        increaseViews: string;
         percentViews: number;
         likesToday: number;
-        increaseLikes: boolean;
+        increaseLikes: string;
         percentLikes: number;
         type: string;
         imageUrl: string;
+        color: string;
+        colorLine: string
     }
 
     export interface SocialMedia {

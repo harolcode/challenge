@@ -7,7 +7,7 @@ import { SocialMedia } from '../interfaces/social.media.interface';
   providedIn: 'root'
 })
 export class SocialMediaService {
-  private apiURL = 'src\app\pages\dashboard\services\db.json';
+  private apiURL = '';
   constructor(private http: HttpClient) { }
 
   getSocialsMedia():Observable<SocialMedia[]> {

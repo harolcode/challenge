@@ -1,0 +1,23 @@
+.content {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.content h1 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.content h2 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.content h3 {
+    margin-top: 0;
+    color: hsl(228, 34%, 66%); 
+    font-size: 14px;
+}
+
+
